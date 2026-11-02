@@ -1,5 +1,3 @@
--- Task 2: Fill the products table with realistic data
--- Adding at least 5-6 realistic rows for the products table
 
 INSERT INTO products (id, name, category, size, price, stock_quantity) VALUES
 (1, 'Classic Denim Jeans', 'Clothing', 'M', 49.99, 150),
