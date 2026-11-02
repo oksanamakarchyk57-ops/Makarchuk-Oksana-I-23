@@ -1,0 +1,13 @@
+Database explanation for the "books" table in biblioteka.db:
+
+- id: INTEGER. This column serves as the primary key, uniquely identifying each book. Using INTEGER provides a compact numeric identifier with integer affinity, ideal for primary keys and efficient indexing.
+
+- title: TEXT. This column stores the book title, which is a variable‑length string of characters. TEXT affinity allows arbitrary-length text and is the natural choice for names and titles.
+
+- author: TEXT. The author's name is also a textual value, stored as a string. TEXT affinity accommodates varying lengths of author names.
+
+- year: INTEGER. Publication year is a whole number (e.g., 1867). Using INTEGER enables numeric comparisons, sorting by year, and arithmetic operations such as calculating averages.
+
+- price: REAL. Book price may include cents (e.g., 150.00). REAL affinity supports decimal numbers, allowing accurate storage and calculation of monetary values.
+
+- quantity: INTEGER. The number of copies in stock is a count, always a whole integer. INTEGER affinity ensures storage efficiency and prevents accidental fractional values.
